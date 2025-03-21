@@ -6,6 +6,7 @@ function List(){
 
 return(
     <>
+        <h1>Fruits</h1>
         <ul className="list-group">
             {fruits.map((fruit) => (
                 <li className="list-group-item" key={fruit}>{fruit}</li>
